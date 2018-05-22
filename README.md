@@ -1,2 +1,2 @@
 # video
-Automated video editing to prpare EM material for presentations and sharing
+Automate video editing to prepare EM material for presentations and sharing
