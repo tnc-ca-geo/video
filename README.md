@@ -15,7 +15,7 @@ git clone https://github.com/tnc-ca-geo/video.git
 
 ```
 cd video
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 - Edit clean_videos.py
