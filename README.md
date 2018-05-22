@@ -32,4 +32,16 @@ PERCENTAGE = {percentage of height that will be cut from the top}
 python clean_videos.py
 ```
 
+Every processed video will start to play for QC. Close at any point in order to proceed with the next one. If autoplay is not desired comment out the last line of the script. Change ...
+
+```
+modified.preview()
+```
+
+to 
+
+```
+# modified preview()
+```
+
 All done
