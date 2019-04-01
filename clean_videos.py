@@ -1,8 +1,10 @@
 import os
 from moviepy import editor
 
+
 IN_DIRECTORY = '../original'
 OUT_DIRECTORY = '../dest'
+PERCENTAGE = 5.5
 
 
 def get_filenames(directory):
@@ -36,7 +38,7 @@ def get_dest_path(path, indirectory, outdirectory):
 
 
 def cut_image(image):
-    percentage = 5.5
+    percentage = PERCENTAGE
     height = len(image)
     cut = int(height * percentage/100)
     width = len(image[0])
@@ -58,4 +60,3 @@ if __name__ == '__main__':
         print(outname)
         modified.write_videofile(outname)
         modified.preview()
-
