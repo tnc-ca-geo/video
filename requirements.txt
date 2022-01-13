@@ -6,7 +6,7 @@ imageio==2.5.0
 imageio-ffmpeg==0.2.0
 moviepy==1.0.0
 numpy==1.16.2
-Pillow==5.4.1
+Pillow==9.0.0
 proglog==0.1.9
 pygame==1.9.5
 requests==2.21.0
