@@ -5,7 +5,7 @@ idna==2.8
 imageio==2.5.0
 imageio-ffmpeg==0.2.0
 moviepy==1.0.0
-numpy==1.16.2
+numpy==1.22.0
 Pillow==5.4.1
 proglog==0.1.9
 pygame==1.9.5
